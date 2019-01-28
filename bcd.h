@@ -60,6 +60,7 @@ int extractBcdPackedToAsciiString(unsigned char *dataIn, size_t dataInLen, unsig
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
+#include "bcd.h"
 int main(int argc, char *argv[])
 {
 	unsigned char dataAscii[]="25fbde9a9";
