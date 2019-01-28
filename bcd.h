@@ -115,8 +115,6 @@ int main(int argc, char *argv[])
 
 	printf("\"\n");
 
-	/* --- */
-
 	free(bufOutToBCDFixed);
 	free(bufOutFromBCDFixed);
 
