@@ -31,7 +31,7 @@
  *  dataInLen - dataIn size
  *  bufOutLen - bufOut (it MUST BE greatest than ((dataInLen/2)+1) or more)
  * OUTPUT:
- *  bufOut - Preallocad buffer to receives BCD data
+ *  bufOut - Preallocated buffer to receive BCD data
  * RETURN:
  *  0 - Ok
  *  1 - NOK (maybe bufOutLen is smaller than necessary)
@@ -47,7 +47,7 @@ int compactAsciiStringToBcdPacked(unsigned char *dataIn, size_t dataInLen, unsig
  *  dataInLen - dataIn size
  *  bufOutLen - bufOut (it MUST BE greatest than (dataInLen*2) or more)
  * OUTPUT:
- *  bufOut - Preallocad buffer to receives ASCII data (expressed in hex values)
+ *  bufOut - Preallocated buffer to receive ASCII data (expressed in hex values)
  * RETURN:
  *  0 - Ok
  *  1 - NOK (maybe bufOutLen is smaller than necessary)
