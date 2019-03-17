@@ -8,7 +8,7 @@
  *
  */
 
-/* bcd.c
+/* bcd.h
  * BCD encoder/decoder
  *
  *  Who     | When       | What
