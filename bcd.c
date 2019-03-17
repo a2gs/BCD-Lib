@@ -21,7 +21,8 @@
 /* *** INCLUDES ************************************************************************ */
 #include <string.h>
 
-int compactAsciiStringToBcdPacked(unsigned char *dataIn, size_t dataInLen, unsigned char *bufOut, size_t bufOutLen){
+int compactAsciiStringToBcdPacked(unsigned char *dataIn, size_t dataInLen, unsigned char *bufOut, size_t bufOutLen)
+{
 	unsigned int posIn = 0, posOut = 0;
 	unsigned char nibbleFlag = 0;
 	unsigned char c = 0;
