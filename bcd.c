@@ -4,7 +4,7 @@
  * BCD encoder
  * Packed. Big endian. No sign bit (4 bits used to represent 0x00 - 0x0Fh)
  *
- * Public Domain
+ * MIT License
  *
  */
 
