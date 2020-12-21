@@ -1,5 +1,5 @@
 # BCD-Lib
-BCD code/encoder (Packed. Big endian. No sign bit)
+BCD code/encoder Library (Packed. Big endian. No sign bit)
 
 Sample:<p>
 
